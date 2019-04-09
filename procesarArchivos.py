@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 
 stopWords = set(stopwords.words('english'))
 columns = ['id', 'title', 'content']
-allFiles = glob.glob("/opt/datasets/*.csv")
+allFiles = glob.glob("*.csv")
 frame = pd.DataFrame()
 i = 1
 for file_ in allFiles:
@@ -30,5 +30,5 @@ for file_ in allFiles:
     df['content'] = df['content'].str.replace('“', ' ')
     df['content'] = df['content'].str.replace('‘', ' ')
     df['content'] = df['content'].str.replace('\t', ' ')
-    df.to_csv("Particles"+str(i)+".csv", sep='\t', index=True, header=True)
+    df.to_csv("Particles"+str(i)+".csv", sep=',', index=True, header=True)
     i+=1
