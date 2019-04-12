@@ -27,7 +27,14 @@ while(True):
                 break
         else:
                 word = word.lower()
-                #print(dictionary[word])
-                sortedList = sorted(dictionary[word].items(), key=lambda kv: kv[1][0], reverse=True) #sorting list in descending order
-                for i in range(10):
-                    print(sortedList[i])
+                totalCount = 0
+                for i in range(len(dictionary[word])):
+                        totalCount += dictionary[word][i][0]
+                sortedList = sorted(dictionary[word], key = lambda k: k[0], reverse=True)
+                if len(sortedList) >= 10:
+                        for i in range(10):
+                                print(sortedList[i])
+                else:
+                        print(sortedList)
+                print(word + " is " + str(totalCount) + " times in all the news.")
+                
