@@ -2,12 +2,9 @@
 from pyspark.sql.functions import regexp_replace, concat_ws
 from pyspark.ml.feature import StopWordsRemover
 from pyspark.ml.feature import Tokenizer, RegexTokenizer
-import nltk
-nltk.download('stopwords')
-from nltk.corpus import stopwords
+
 # File location and type
-file_path = "dbfs:///FileStore/tables/*.csv"
-stopWords = set(stopwords.words('english'))
+file_path = "dbfs:///FileStore/tables/articles*.csv"
 df = spark.read.csv(file_path, header="true", inferSchema="true").select("id", "title", "content")
 df = df.withColumn('content', regexp_replace('content', '[^0-9a-zA-Z]+', ' '))#remove special characteres
 df = df.withColumn('content', regexp_replace('content', '(?:^| )\w(?:$| )', ' '))#remove single words
