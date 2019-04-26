@@ -1,6 +1,6 @@
 # TET-Project3
 
-## Limpieza de archivos
+## Preparacion de archivos
 
 ## Busqueda
 
