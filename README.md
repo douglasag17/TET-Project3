@@ -9,7 +9,7 @@ El proyecto se debe ejecutar en un cluster de Databricks Community
 
 ## Preparación de datos
 
-Se trabajó sobre el dataset all-the-news (poner link), el cual contiene aproximadamente 150000 noticias. Entonces primero preparamos los datos a traves a traves del siguiente pre-procesamiento:
+Se trabajó sobre el dataset [all-the-news](https://www.kaggle.com/snapcrack/all-the-news), el cual contiene aproximadamente 150000 noticias. Entonces primero preparamos los datos a traves a traves del siguiente pre-procesamiento:
 1. Borramos todos los caracteres especiales (. , % ( ) ‘ “ ....
 2. Borramos todas las stopwords
 3. Borramos todas las palabras de longitud 1
