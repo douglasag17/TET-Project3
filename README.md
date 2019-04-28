@@ -10,7 +10,40 @@ El proyecto se debe ejecutar en un cluster de Databricks Community
 
 ## Metodologia: CRISP-DM
 
-![Screenshot](images/CRISP-DM.png)
+## Cross Industry Standard Process for Data Mining
+
+<p align="center">
+        <img src="images/CRISP-DM.png" width="500px" height="540px">
+</p>
+
+CRISP-DM divide el proceso de minería de datos en seis fases principales.
+
+Las flechas en el diagrama indican las dependencias más importantes y frecuentes entre fases. El círculo exterior en el diagrama simboliza la naturaleza cíclica de la minería de datos en sí. Un proceso de minería de datos continúa después del despliegue de una solución. Las lecciones aprendidas durante el proceso pueden provocar nuevas preguntas de negocio, a menudo más centradas y posteriores procesos de minería de datos se beneficiarán de la experiencia de los anteriores.
+
+### Fases
+
+1.  Entendimiento del negocio
+  * Entender los requisitos y objetivos del proyecto.
+  * Definición del problema de minería de datos.
+  
+2.  Entendimiento de los datos
+  * Adquisición del dataset.
+  * Exploración del dataset.
+  
+3.  Identificar las características de calidad de los datos.
+  * Elección de los datos.
+  * Preparación de los datos.
+  * Limpieza de los datos.
+  
+4.  Modelado
+  * Implementación en herramientas de Data Mining.
+
+5.  Evaluación
+  * Determinar si los resultados cumplen los objetivos del proyecto.
+  * Identificar los temas que deben de ser cubiertos por el proyecto.
+  
+6.  Despliegue
+  * Instalar el modelo.
 
 ### Entendimiento del negocio
 La minería o analítica de texto, son un conjunto de modelos, técnicas, algoritmos y tecnologías que permiten procesar texto de naturaleza NO ESTRUCTURADA.
