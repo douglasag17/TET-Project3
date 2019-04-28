@@ -8,6 +8,7 @@ from collections import defaultdict
 file_path = "dbfs:///FileStore/tables/*.csv"
 df = spark.read.csv(file_path, header="true", inferSchema="true").select("id", "title", "content")
 df = df.filter(df.content.isNotNull())#Removing null values
+df = df.filter(df.title.isNotNull())#Removing null values
 df = df.withColumn('content', regexp_replace('content', '[^0-9a-zA-Z]+', ' '))#remove special characteres
 df = df.withColumn('content', regexp_replace('content', '(?:^| )\w(?:$| )', ' '))#remove single words
 #Removing stopwords
