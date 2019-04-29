@@ -11,6 +11,7 @@ for i, content in enumerate(frame['filtered']):
     grouping[id_] = words
 news = {}
 
+# Busqueda
 id_ = '17295'
 title = cleanedDataFrame.filter(cleanedDataFrame.id == id_).collect()[0][1]
 wordsN = grouping.get(id_)
