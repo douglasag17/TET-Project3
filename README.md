@@ -6,7 +6,7 @@
 
 ## Ambiente de ejecución
 El proyecto se debe ejecutar en un cluster de Databricks Community
-#### Notebook: [ver](link)
+#### Notebook: [ver](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4324748683792239/1607293699539435/8664231812763542/latest.html)
 
 ## Metodologia: CRISP-DM
 
