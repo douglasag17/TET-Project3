@@ -1,8 +1,8 @@
 # Tópicos Especiales en Telemática Proyecto 3: Bigdata, Spark
 
-- Douglas Ardila Garcés dardila5@eafit.edu.co
-- Andrés Felipe Avendaño aavenda1@eafit.edu.co
-- Felipe Macías Herrera fmacias1@eafit.edu.co
+- Douglas Ardila Garcés dardila5@eafit.edu.co [Video](https://youtu.be/QYWA35YTC1Q)
+- Andrés Felipe Avendaño aavenda1@eafit.edu.co [Video]()
+- Felipe Macías Herrera fmacias1@eafit.edu.co [Video](https://www.youtube.com/watch?v=FpoQCT5aBp4)
 
 ## Ambiente de ejecución
 El proyecto se debe ejecutar en un cluster de Databricks Community
