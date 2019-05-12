@@ -1,7 +1,7 @@
 # Tópicos Especiales en Telemática Proyecto 3: Bigdata, Spark
 
 - Douglas Ardila Garcés dardila5@eafit.edu.co [Video](https://youtu.be/QYWA35YTC1Q)
-- Andrés Felipe Avendaño aavenda1@eafit.edu.co [Video]()
+- Andrés Felipe Avendaño aavenda1@eafit.edu.co [Video](https://www.youtube.com/watch?v=EGXbqDTvY34)
 - Felipe Macías Herrera fmacias1@eafit.edu.co [Video](https://www.youtube.com/watch?v=FpoQCT5aBp4)
 
 ## Ambiente de ejecución
